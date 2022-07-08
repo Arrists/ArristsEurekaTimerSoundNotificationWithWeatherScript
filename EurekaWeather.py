@@ -42,7 +42,7 @@ def timer():
         else:
             time.sleep(60)
         eurekaWeather()
-        print('\n--------------- ' + str(minute) + " Minute Left!" + ' --------------- ' + str(datetime.datetime.now()))
+        print('\n--------------- ' + str(minute-i) + " Minute Left!" + ' --------------- ' + str(datetime.datetime.now()))
         
     print('\n------------------- THE END ------------------- ' + str(datetime.datetime.now()))
     playsound("D:\sound.mp3")
